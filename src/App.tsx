@@ -92,11 +92,11 @@ const showGame = () => {
           <button type="submit" className="continue_btn" onClick={() => showGame()}> Continue </button>
         </div>
       </div>
-      
+      </>}
       <div style={{fontSize:"2rem", textAlign:"center"}}> 
       {isWinner && "Winner! Press Enter to Restart."} 
       {isLoser && "Nice Try! - Press Enter to try again. "} 
-      </div> </>}
+      </div>
       
       {isGameEnabled &&
       <>       
