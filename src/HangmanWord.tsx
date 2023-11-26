@@ -7,11 +7,14 @@ type HangmanWordProps = {
 export function HangmanWord({reveal = false, guessedLetters, wordToGuess} : HangmanWordProps) {
     return <div style={{
         display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
         gap:"2.5em",
-        fontSize:"6rem",
+        fontSize:"4rem",
         fontWeight:"bold",
         textTransform:"uppercase",
-        fontFamily:"monospace"
+        fontFamily:"monospace",
+        width:"80vw"
     }}>
         {wordToGuess.split("").map((letter, index) => (
             <span style={{borderBottom: ".1em solid black"}} key={index}> 

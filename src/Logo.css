@@ -1,0 +1,41 @@
+.devLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.initialsGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.initialsGroup:hover{
+    cursor: pointer;
+}
+
+.devLogo .initials{
+    font-weight: 800;
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    transition: all 0.2s;
+}
+
+.initials:nth-of-type(2){
+    rotate: -45deg;
+}
+
+.initials:nth-of-type(2):hover{
+    rotate: 0deg;
+}
+
+.initialsDivision{
+    height: 15px;
+    width: 40px;
+    background-color: #c9c9c9;
+    position: absolute;
+}

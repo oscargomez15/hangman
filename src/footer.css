@@ -1,0 +1,133 @@
+.footer-container{
+    background-color: #3C3C3C;
+    color: #c9c9c9;
+
+    min-height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width:800px) {
+    .footer-container{
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0rem;
+    }
+}
+
+.devLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.initialsGroup{
+    display: flex;
+    position: relative;
+}
+
+.devLogo .initials{
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.initials:nth-of-type(2){
+    rotate: -45deg;
+}
+
+.initialsDivision{
+    height: 15px;
+    width: 40px;
+    background-color: #c9c9c9;
+    position: absolute;
+}
+
+.footer-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-left: 2px solid #c9c9c9;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width:900px) {
+    .footer-info-container{
+        border-left: none;
+        padding-left: 0;
+        gap: 2rem;
+    }
+}
+.otherLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width:800px){
+    .otherLinks{
+        padding-bottom: 2rem;
+    }
+}
+
+
+.linksSection:nth-of-type(1){
+    padding-right: 2rem;
+}
+
+.linksSection:nth-of-type(2){
+    padding-left: 2rem;
+}
+
+.linksSection p{
+    font-weight: 600;
+}
+
+.linksSection ul{
+    list-style: none;
+}
+
+.linksSection ul li{
+    padding-top: .5rem;
+}
+
+@media screen and (max-width:800px) {
+    .linksSection li a{
+        font-size: 3vw;
+    }
+
+    .linksSection ul li{
+        padding-top: .2rem;
+    }
+
+    .copyright{
+        align-self: flex-start;
+    }
+
+    .linksSection:nth-of-type(2){
+        padding-left: 0;
+    }
+}
+
+.linksSection a{
+    text-decoration: none;
+    color: #c9c9c9;
+    font-size: .9rem;
+}
+
+.linksSection a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .projectDisclaimer{
+        padding-bottom: 2rem;
+        border-bottom: solid 2px #c9c9c9;
+    }
+}
