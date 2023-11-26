@@ -1,3 +1,7 @@
+.instructions_wrapper{
+    min-height: calc(100vh - 35rem);
+}
+
 .instructions_container{
     display: flex;
     flex-direction: column;
@@ -7,3 +11,24 @@
     margin-top: 5rem;
 }
 
+.instructions_heading{
+    font-size: 1.5rem;
+}
+
+.instructions_container ul li{
+    opacity: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.instructions_subheading{
+    font-weight: 600;
+}
+
+.continue_btn{
+    color: black;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+}

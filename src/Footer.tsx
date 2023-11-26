@@ -17,9 +17,10 @@ export const Footer = () => {
                 <div className='linksSection'>
                     <p> View other Projects </p>
                     <ul>
-                        <li> <a href="https://oscargomez15.github.io/crypto-tracker-app/" target='__blank'>Cryptocurrency Tracker</a> </li>
+                        <li> <a href="https://oscargomez15.github.io/crypto-tracker-app/" target='__blank'>Crypto Tracker Project</a> </li>
                         <li> <a href="https://habanerosbonitasprings.com/" target='__blank'> Local Restaurant Website </a> </li>
-                        <li> <a href="https://oscargomez15.github.io/personal-portfolio/" target='__blank'> Personal Portfolio </a> </li>
+                        <li> <a href="https://oscargomez15.github.io/pixelworldecommerce/" target='__blank'> eCommerce Project </a> </li>
+                        
                     </ul>
                 </div>
 
