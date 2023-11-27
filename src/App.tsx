@@ -71,13 +71,7 @@ const showGame = () => {
 
   return <>
   <Navbar/>
-  <div style={{
-      maxWidth: "800px",
-      display:"flex",
-      flexDirection:"column",
-      gap: "2rem",
-      margin: "0 auto",
-      alignItems:"center"  }}>
+  <div className="page_wrapper">
       
       {!isGameEnabled &&
       <>
@@ -94,8 +88,8 @@ const showGame = () => {
       </div>
       </>}
       <div style={{fontSize:"2rem", textAlign:"center"}}> 
-      {isWinner && "Winner! Press Enter to Restart."} 
-      {isLoser && "Nice Try! - Press Enter to try again. "} 
+      {isWinner && <h2 className="endGameMessage"> <span>Winner!</span> <br/> Press Enter to Restart.</h2>} 
+      {isLoser && <h2 className="endGameMessage"> <span>Nice Try!</span> <br/> Press Enter to try again.</h2>} 
       </div>
       
       {isGameEnabled &&

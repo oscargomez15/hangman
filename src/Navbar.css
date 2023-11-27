@@ -14,9 +14,8 @@ header{
     align-items: center;
     width: 100%;
     background-color: rgb(122, 122, 122);
-    padding: 0;
+    padding: 0 1rem;
     margin: 0;
-    margin-bottom: 2rem;
 }
 
 .navbar_title{
