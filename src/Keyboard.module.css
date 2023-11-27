@@ -1,3 +1,12 @@
+.keyboardContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(75px, 1fr));
+    grid-template-rows:repeat(auto-fit, minmax(75px, 1fr));
+    gap:.5rem;
+    width:90%;
+    margin:auto;
+}
+
 .btn {
     width: 100%;
     background:none ;
@@ -9,6 +18,23 @@
     font-weight: bold;
     cursor: pointer;
     color:black;
+
+}
+
+@media screen and (max-width:1200px) {
+    .btn{
+        font-size: 1.5rem;
+    }
+
+    .keyboardContainer{
+        grid-template-columns:repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-rows:repeat(auto-fit, minmax(50px, 1fr));
+    }
+
+    nav{
+        display: none;
+    }
+
 
 }
 

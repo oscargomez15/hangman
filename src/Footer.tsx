@@ -9,10 +9,6 @@ export const Footer = () => {
         <MyLogo/>
         <div className='footer-info-container'>
 
-            <div className='projectDisclaimer'>
-                <p>This is a experimental project and should be treated as such.</p>
-            </div>
-
             <div className='otherLinks'>
                 <div className='linksSection'>
                     <p> View other Projects </p>
