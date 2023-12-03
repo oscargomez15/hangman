@@ -1,5 +1,8 @@
 @media screen and (max-width:1200px) {
     .drawingContainer{
-        scale: .8;
-    } 
+        scale: .6;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
 }

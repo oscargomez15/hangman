@@ -1,13 +1,26 @@
 .devLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .initialsGroup{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
     height: 100px;
     width: 100%;
@@ -22,6 +35,8 @@
     font-size: 5rem;
     font-family: "Poppins", sans-serif;
     color: white;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
